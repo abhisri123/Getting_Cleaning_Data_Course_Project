@@ -17,13 +17,13 @@ Code corresponding to activities done in the experiment. Integer value from 1 to
 *ActivityLabels:* 
 Labels corresponding to ActivityCode.
 
-ActivityCode	ActivityLabels
-1  		WALKING
-2  		WALKING_UPSTAIRS
-3  		WALKING_DOWNSTAIRS
-4  		SITTING
-5  		STANDING
-6  		LAYING
+-ActivityCode	ActivityLabels
+-1  		WALKING
+-2  		WALKING_UPSTAIRS
+-3  		WALKING_DOWNSTAIRS
+-4  		SITTING
+-5  		STANDING
+-6  		LAYING
 
 
 *SubjectCode:*
@@ -46,7 +46,7 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
-mad(): Median absolute deviation 
+mad(): Median absolute deviation
 max(): Largest value in array
 min(): Smallest value in array
 sma(): Signal magnitude area
@@ -633,11 +633,11 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
 
 - Triaxial acceleration from the accelerometer (total acceleration) (3*128 codes)
-	They are coded as total_acceleration_(x,y,z)_(1:128)
+	They are coded as total_acceleration_(x,y,z).(1:128)
 - estimated body acceleration.
-	They are coded as body_acceleration_(x,y,z)_(1:128)
+	They are coded as body_acceleration_(x,y,z).(1:128)
 - Triaxial Angular velocity from the gyroscope. 
-	They are coded as body_gyro_(x,y,z)_(1:128)
+	They are coded as body_gyro_(x,y,z).(1:128)
 
 *The Variables (Codes) are as follows*
 
